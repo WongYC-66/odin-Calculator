@@ -16,6 +16,8 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 3px solid rgb(233, 133, 37);;
+    box-shadow: 3px 6px 13px 3px rgba(0,0,0,0.75);
 }
 .row{
     display: flex;
@@ -36,6 +38,10 @@ h1{
 .pad:hover{
     background-color: rgb(80, 80, 80);
     cursor: pointer;
+}
+.pad.operand.longpad{
+    width: 126px;
+    font-size: 24px;
 }
 .pad.operand{
     background-color: rgb(253, 163, 67);
